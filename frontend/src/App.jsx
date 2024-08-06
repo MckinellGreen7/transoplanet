@@ -16,7 +16,7 @@ function DomainNameForm() {
 
   const getData = async (url) => {
     try {
-      const response = await axios.post('https://transoplanet-ihvh.onrender.com', { url });
+      const response = await axios.post('https://transoplanet-ihvh.onrender.com/getProducts', { url });
       setProductsData(response.data);
       // console.log(response.data);
     } catch (error) {
