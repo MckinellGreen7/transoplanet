@@ -26,7 +26,7 @@ function DomainNameForm() {
 
   return (
     <div className="flex flex-col items-center justify-center w-full">
-      <div className='text-xl font-semibold'>Scrape five products from any netlify store.</div>
+      <div className='text-xl font-semibold py-4'>Scrape five products from any netlify store.</div>
       <div className="flex flex-col w-[40%] mb-6">
         <label className="block mb-1 ml-1 text-md font-medium text-gray-900">Domain Name</label>
         <input
